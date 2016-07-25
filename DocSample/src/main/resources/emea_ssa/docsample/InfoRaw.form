@@ -1,0 +1,34 @@
+
+<form id="1267511827">
+<property name="name" value="InfoRaw.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="info_title" type="InputText" id="337083557">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;title (info)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="info/title"/>
+<property name="outputBinding" value="info/title"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="info_tags" type="InputText" id="1651654817">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;tags (info)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="info/tags"/>
+<property name="outputBinding" value="info/tags"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="info_version" type="InputTextBigDecimal" id="510882784">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;version (info)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="info/version"/>
+<property name="outputBinding" value="info/version"/>
+<property name="fieldClass" value="java.math.BigDecimal"/>
+</field>
+<dataHolder inputId="info" name="#E9E371" type="dataModelerEntry" outId="info" value="emea_ssa.docsample.Information" id="info"/>
+</form>
